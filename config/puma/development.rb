@@ -1,0 +1,5 @@
+rackup './server/config.ru'
+environment 'development'
+pidfile './_pid/puma.pid'
+state_path './_pid/puma.state'
+bind 'tcp://localhost:9292'
