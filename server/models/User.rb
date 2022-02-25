@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 require_relative '../helper/basic_helper'
+require_relative '../system/boot/database'
 
 class User < Sequel::Model
 	plugin :secure_password
